@@ -1,0 +1,6 @@
+fx-resource-aad-app-for-teams.local_clientSecret=3IrMl9yULlel_0eXNe.N.5dD7E-w1eAX_-
+fx-resource-local-debug.skipNgrok=false
+fx-resource-local-debug.localBotEndpoint=https://76c9321a9554.ngrok.io
+fx-resource-local-debug.localAuthEndpoint=http://localhost:5000
+fx-resource-local-debug.localBotDomain=76c9321a9554.ngrok.io
+fx-resource-bot.localBotPassword=m431b.E4H~6T-AyUC3L_~GGt.K-VRi3fCv

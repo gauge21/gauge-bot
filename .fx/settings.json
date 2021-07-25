@@ -1,0 +1,19 @@
+{
+    "appName": "Gauge",
+    "projectId": "2d52230a-13eb-49ef-85fd-ece9f8430fe0",
+    "currentEnv": "default",
+    "solutionSettings": {
+        "name": "fx-solution-azure",
+        "version": "1.0.0",
+        "hostType": "Azure",
+        "capabilities": [
+            "Bot"
+        ],
+        "azureResources": [],
+        "activeResourcePlugins": [
+            "fx-resource-local-debug",
+            "fx-resource-bot",
+            "fx-resource-aad-app-for-teams"
+        ]
+    }
+}
