@@ -1,7 +1,6 @@
-# dependencies
-node_modules/
-
-# misc
 .env
-.deployment
-.DS_Store
+.sass-cache
+.db
+.data
+node_modules
+components/routes/_*

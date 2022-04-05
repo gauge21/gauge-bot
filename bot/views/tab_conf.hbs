@@ -1,0 +1,30 @@
+
+<h3>Configure Tab</h3>
+
+
+<button onclick="onClick()">Install Tab</button>
+<script type="text/javascript">
+// must initialize the teams js library
+microsoftTeams.initialize();
+
+
+// set a setting
+microsoftTeams.settings.registerOnSaveHandler(function(saveEvent){
+      microsoftTeams.getContext(function(context){
+         microsoftTeams.settings.setSettings({
+           entityId: "notes_by_channel",
+           contentUrl: "{{botkit_host}}/teams/tabs/notesByChannel/" + context.channelId,
+           suggestedDisplayName: "My Botkit Tab",
+           websiteUrl: "{{botkit_host}}",
+           removeUrl: "{{botkit_host}}/teams/tabs/remove",
+        });
+        saveEvent.notifySuccess();
+      });
+});
+
+function onClick() {
+    microsoftTeams.settings.setValidityState(true);
+}
+
+
+</script>
